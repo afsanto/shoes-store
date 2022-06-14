@@ -323,7 +323,7 @@ footer {
 
 @media(max-width:1024px) {
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
 
     header {
@@ -345,8 +345,8 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(25.0rem, 1fr 1fr));
         grid-template-rows: 15% 15% 70%;
         grid-template-areas: "detalhes-text img-4"
-            "ctb-detalhes img-4"
-            "img-3 img-4";
+                             "ctb-detalhes img-4"
+                             "img-3 img-4";
         margin-left: auto;
 
     }
